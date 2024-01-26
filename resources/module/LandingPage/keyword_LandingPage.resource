@@ -21,6 +21,7 @@ Click Login
      Click Button      ${obj_login_btn}
 
 Login to Account
+    Sleep  5s
     [Arguments]                ${username}          ${password}
     Fill In Login Credentials  ${username}         ${password}
     Click Login

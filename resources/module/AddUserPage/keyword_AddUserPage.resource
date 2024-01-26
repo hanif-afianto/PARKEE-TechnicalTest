@@ -41,3 +41,4 @@ Search username
     [Arguments]  ${field}  ${username}  ${button}
     Input Text  ${field}  ${username}
     Click Button  ${button}
+    sleep  5s
